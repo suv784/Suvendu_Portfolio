@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+
+    <!-- Background Circles Start -->
+
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <!-- Background Circles End -->
+
+    <!-- Overlay Start -->
+
+    <div class="overlay"></div>
+
+    <!-- Overlay End -->
+
+    <!-- Main Start -->
+    <div class="main hidden">
+      <!-- Header Start -->
+
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Suvendu kumar Mohanty</h1>
+              <h2>Java full stack Developer</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="images/image.png" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Home Section End -->
+
+      <!-- About Section Start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="images/about-img.png" alt="about image" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                I'm an engineering graduate, from IGIT sarang, Odisha with an overall CGPA of
+                8.5. Along with my degree, I completed java Full stack development
+                course based on the concepts of Object-Oriented Programming &
+                Functional Programming in Java. 
+                Moreover, I have learned the basics and advanced topics 
+                FullStack Frontend & Backend Development using the languages
+                like HTML5, CSS3, Bootstrap & JavaScript,J2EE,Core Java,SQL,Hibernate/JPA,Spring core and Spring MVC.
+              </p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">Core Java</div>
+                <div class="skill-item">J2EE</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Hibernate</div>
+                <div class="skill-item">JPA</div>
+                <div class="skill-item">Spring core</div>
+                <div class="skill-item">Spring MVC</div>
+                <div class="skill-item">HTML & CSS</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">bootstrap</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  experience
+                </button>
+              </div>
+
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2018-2022</span>
+                    <h4>
+                      bachelor of technology - <span>IGIT,Sarang</span>
+                    </h4>
+                    <p>
+                      Graduated in mechanical engineering with the CGPA OF 8.5
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2016-2018</span>
+                    <h4>
+                       Secondary - <span>Tetrahedron +2Science College</span>
+                    </h4>
+                    <p>
+                      Completed my 12th from CHSE board with an overall
+                      percentage of 64.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2015-2016</span>
+                    <h4>Matriculation - <span>Jajpur Zilla School</span></h4>
+                    <p>
+                      Completed my 10th from BSE ,Odisha with an overall
+                      percentage of 84.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- Experience Start -->
+
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">Aug22 - Aug23</span>
+                    <h4>
+                      Java Fullstack Developer Training- <span>Jspider</span>
+                    </h4>
+                    <p>
+                     Developed an online consulting Web portal where client can be able to add what type of consultying he/she
+                     wants ,according to that consultant will be allocate by the Admin and the consultant has the ability to view the 
+                     client update the client through his/her mail.
+                    </p>
+                    <p>
+                    Developed an online Quiz Application where Admin has the ability to add ,update,view ,delete student ,add instruction
+                    update instruction,Add Questions and Student has the ability to take the test as per the instructions
+                    after that the result will display on a result page. 
+                    </p> 
+                    <p>
+                    Developed an Online PhoneBook application where user can add phone number ,view phone number and delete phone number by 
+                    registering and login to the webportal.
+                    </p> 
+                    <p>
+                    Developed an SchoolManagement System.This is a console based application where the user can interact with the system through the
+                    console.The features are basically CRUD operation perform on Student and Teacher table in the database.
+                    </p>
+                    <p>
+                    Created a frontend design of a school website using HTML,CSS.
+                    </p>
+                  </div>
+                <!--    <div class="timeline-item">
+                    <span class="date">Oct22 - Jan23</span>
+                    <h4>
+                      Fronten developer intern -
+                      <span>Ethical Edufabrica Software Solution</span>
+                    </h4>
+                    <p>
+                      Developed a responsive website for an university using HTML,CSS and JavaScript
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Jul21 - Aug21</span>
+                    <h4>
+                     Project intern -
+                      <span>Incobist IT Solutions</span>
+                    </h4>
+                    <p>
+                     Prepared an Quiz Application for the Respecetive Company using HTML,CSS,Bootstrap,Javascript 
+                     for Frontend and JAVA,JSP,Servlet,SQL,JDBC API for Backend.
+                    </p>
+                  </div>-->
+                </div>
+              </div>
+
+              <!-- Experience End -->
+
+              <a href="images/SuvenduKumarMohantyResume.pdf" target="_blank" class="btn">download cv</a>
+              <a href="https://www.linkedin.com/in/suvendu-mohanty-784skm/" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/ConsultingWeb.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">ConsultingArc</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                   
+
+                    t consisit of 3 Modules that is Admin,Consultant,Client/user. Admin has the ability to add consultant,view Consultant,view client,view appointment through Admin Dashboard. Client has the ability to create Appointment ,as per the requirments and he/she has the abilty to choose what type consulatnting required along with respective consultant. Consultant has the ability view the client and solve there issue and after solving the client will update from there mailId.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>August 2023</span></li>
+                    <li>technologies used - <span>Java, JDBC, SQL,JSP,Servlet,HTML5,CSS3,Bootstrap</span></li>
+                    <li>Role - <span>trainee</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/suv784/ConsultingArc"
+                          target="_blank"
+                          >www.github.com/suv78
+                          4/ConsultingArc</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/Quiz.jpg" width="30px" height="185px"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">QuizSage</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                   QuizSage consists of 2 modules such as Admin and User/Student. Admin has the ability to Add, Update student, Set Questions, update Questions, Set Instructions, and Update Instructions. Student need to enter the application through there StudentId and password which were given by the Admin. After Login he/she need to follow the instruction and according to that he/she need to give test. At the end of test he/she will get the result according to there responses. 
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>August 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>Java, JDBC, SQL,JSP,Servlet,HTML5,CSS3,Bootstrap</span> 
+                    </li>
+                    <li>Role - <span>trainee</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/suv784/QuizSage"
+                          target="_blank"
+                          >www.github.com/suv784/QuizSage</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/all.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">OnlinePhoneBookApplication</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    This is an online webApplication where user can register ,and login to save contact ,view contact ,update contact and delete contact. I use jsp,servlete,JDBC,Core java as backend Technologies to create this. For frontend i used html,css,bootstrap.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>July 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>Java, JDBC, SQL,JSP,Servlet,HTML5,CSS3,Bootstrap</span>
+                    </li>
+                    <li>Role - <span>trainee</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/suv784/Online_phonebookSystem"
+                          >www.github.com/suv784/Online_phonebookSystem</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/School.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">SchoolManagement</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    his a console-based application where the user has the ability to run the main controller and has the option to manipulate Teacher and Student data by performing simple CRUD operations
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>October 2022</span></li>
+                    <li>
+                      technologies used -
+                      <span>Core Java,SQL,JDBCAPI</span>
+                    </li>
+                    <li>Role - <span>trainee</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/suv784/SchoolManagement_JDBC_Consolele/tree/master"
+                          target="_blank"
+                          >www.github.com/suv784/SchoolManagement_JDBC_Consolele/tree/master</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+           
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item" style="margin-right:20px;">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/portfilo.png" width="50px" height="220px"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">portfolio website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Created my portfolio website from scratch using the basic
+                    and advance concepts of FullStack. The frontend part of the
+                    website was mainly created using the concepts of languages
+                    like HTML, CSS & Bootstrap. The backend part of the website
+                    was created by using the basic and core concepts of the
+                    JavaScript language.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>July 2023</span></li>
+                    <li>
+                      technologies used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>Role - <span>Frontend & Backend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/suv784/my_Portfolio/tree/master"
+                          target="_blank"
+                          >www.github.com/suv784/my_Portfolio</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Contact Section Start -->
+
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form onsubmit="sendEmail(); reset(); return false;">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="name"
+                      placeholder="Name"
+                      class="input-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      class="input-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                      id="subject"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      id="message"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>mohantysuvendu5@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>7847932204</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.linkedin.com/in/suvendu-mohanty-784skm/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/suv784" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="https://twitter.com/@SUVENDU41817456" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/mr quarlito/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section End -->
+    </div>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="images/portfolio/crypto.png" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+
+    <script src="js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script type="text/javascript">
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "mohantysuvendu5@gmail.com",
+          Password: "fowhlzqrgfhtomgv",
+          To: "mohantysuvendu5@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: document.getElementById("subject").value,
+          Body: "Name: " + document.getElementById("name").value
+              + "<br> Message: " + document.getElementById("message").value  
+        }).then((message) => alert("Message Sent Successfully!!"));
+      } 
+    </script>
+  </body>
+</html>
